@@ -20,9 +20,11 @@ connection = dreampylib.DreampyLib(user,key)
 if connection.IsConnected():
 	
 	# For instance, list the available commands:
-	print 'Available commands:\n ',
+	print 'Available commands:\n '
 	listOfCommands = connection.AvailableCommands()
-	print '\n  '.join(listOfCommands)
+	
+	for item in listOfCommands:
+		print '\t'.join(item)
 	
 	print connection.dreamhost_ps.list_ps()
 	

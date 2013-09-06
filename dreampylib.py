@@ -1,6 +1,8 @@
 # Dreampylib - version 1.0
 # (c) 2009 by Laurens Simonis
 # See licence.txt for licencing info
+# updated 2013 by Michael Rodriguez
+
 
 # UUID is needed to generate a nice random uuid for dreamhost
 import uuid
